@@ -2,7 +2,7 @@ import stashy
 
 bitbucket = stashy.connect("Bitbucket Host", "UserName", "Password")
 
-projects =["project1"]
+projects =["project1", "project2"]
 
 for project in projects:
     for repo in bitbucket.projects["%s" % project].repos.list():
