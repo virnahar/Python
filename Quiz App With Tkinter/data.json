@@ -1,0 +1,91 @@
+{
+  "question": [
+    "Q1. Which LINUX command lists and resumes stopped jobs in the background??",
+    "Q2. Which Linux command is used for security audits?",
+    "Q3. Which Linux command kills process with name xyz?",
+    "Q4. Which LINUX command is used to check settings of your NIC?",
+    "Q5. Which Linux command is used to schedule a command to run at a later time?",
+    "Q6. Which command is used for ip packet filtering in Linux?",
+    "Q7. Which Linux Command changes priority of an already running process?",
+    "Q8. How to displays system reboot history on Linux?",
+    "Q9. To give 'rw- rw- r--' permissions for file X which command do we use?",
+    "Q10. command displays messages in kernel ring buffer in Linux?",
+    "Q11. Which LINUX command used for simple DNS lookup?",
+    "Q12. Which Linux command kills all processes named abc?",
+    "Q13. Which Linux command shows xyz package information and summary?",
+    "Q14. Which Linux command starts a process with a given priority?",
+    "Q15. Which Linux command is used for analyzing and capturing?",
+    "Q16. If we use CTRL + ALT + DEL what happens in Linux?",
+    "Q17. To list the entries that start with the character 'a' in file abc.txt, we use ?",
+    "Q18. How to find the difference between abc.txt and xyz.txt files?",
+    "Q19. Which one gives read, write to owner and group while read to everyone?",
+    "Q20. Crontab syntex to run a command at 1 am everyday ?"
+  ],
+  "answer": [
+    4,
+    1,
+    3,
+    2,
+    2,
+    1,
+    4,
+    3,
+    3,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2,
+    2,
+    1,
+    2,
+    4,
+    3
+
+
+
+  ],
+  "options": [
+
+    ["bg",
+      "ss",
+      "ls",
+      "fg"
+    ],
+    ["nmap",
+      "pwd",
+      "dig",
+      "df"
+    ],
+    ["del xyz",
+      "mv xyz",
+      "pkill xyz",
+      "delete xyz"
+    ],
+    ["route",
+      "ethtool",
+      "ss",
+      "dig"
+    ],
+    ["dashboard","crontab","nslookup","ethtools"],
+    ["iptables","filters","dig","ethtools"],
+    ["pmap","renew","pstree","renice"],
+    ["lst","display reboot","last reboot","reboot"],
+    ["chmod 775 filename","chmod 774 filename","chmod 664 filename","chmod 665 filename"],
+    ["dmesg","bufmes","displaymsg","showmsg"],
+    ["curl","dstat","dig","dir"],
+    ["killall abc","killall","pkill abc","kill abc"],
+    ["dir xyz","packet info xyz","yum info xyz","ls xyz"],
+    ["renice","lsof","nice","pmap"],
+    ["ss","tcpdump","ipfilters","ethtools"],
+    ["GUI opens","system reboots","system waits","system ask for reboot"],
+    ["cat abc.txt | grep ^a","cat abc.txt | grep $a","cat abc.txt | grep ?a"],
+    ["grep abc.txt xyz.txt","diff abc.txt xyz.txt","comp abc.txt xyz.txt","ls abc.txt xyz.txt"],
+    ["654","544","554","664"],
+    ["1 0 * * *","* * * 0 1","0 1 * * *","0 * * 1 *"]
+
+
+
+  ]
+}
